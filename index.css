@@ -17,10 +17,6 @@ body{
   /* 中央寄せ */
   text-align:center;
   margin:0 auto;
-  display:block;
-  padding-left:16px;
-  padding-top:16px;
-
 }
 
 .btn-circle-border-simple {
@@ -36,6 +32,8 @@ body{
   overflow: hidden;
   font-weight: bold;
   transition: .4s;
+  padding-left:16px;
+  padding-top:16px;
 }
 
 .btn-circle-border-simple:hover {
