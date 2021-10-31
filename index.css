@@ -28,14 +28,14 @@ body{
   
 }
 
-/* 丸いボタンに適用 */
+/* "丸いボタン"に適用 */
 .pause{
   text-align:center;
   margin:0 auto;
   font-size: 25px;
 }
 
-/* 丸いボタン同士の間隔を設定 */
+/* "丸いボタン"同士の間隔を設定 */
 .pad{
   display: inline-block;
   width:200px;
@@ -43,7 +43,7 @@ body{
   padding-top:50px;
 }
 
-/* 丸いボタンの詳細な設定 */
+/* "丸いボタン"の詳細な設定 */
 .btn-circle-border-simple {
   display: inline-block;
   text-decoration: none;
@@ -59,22 +59,24 @@ body{
   transition: .4s;
 }
 
+/* "丸いボタン"の上にマウスを置いたときに実行されるクラス */
 .btn-circle-border-simple:hover {
-  background: #b3e1ff;
+  background: #b3e1ff;  /* 背景色を設定 */
 }
 
+/* "前のページに戻るボタン" */
 .btn-flat-border {
   display: inline-block;
   padding: 0.3em 1em;
   text-decoration: none;
   color: #67c5ff;
-  border: solid 2px #67c5ff;
+  border: solid 2px #668ad8;
   border-radius: 3px;
   transition: .4s;
 }
-
-.btn-flat-border:hover {
-  background: #67c5ff;
+/* "前のページに戻るボタン"の上にマウスを置いたときに実行されるクラス */
+.btn-flat-border:hover { 
+  background: #668ad8;
   color: white;
 }
 
