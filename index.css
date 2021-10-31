@@ -3,11 +3,13 @@
   font-size:20px;
 }
 
+/* ページ全体に適用 */
 body{
-  //中央寄せ
+  /* 中央寄せ */
   margin-right: auto;
   margin-left: auto;
-  //全体の横幅を375に設定
+  
+  /* 全体の横幅を375に設定 */
   width:375px;
   }
 
@@ -26,7 +28,7 @@ html {
 
 /* 背景用*/
 body {
-  padding: 30px;
+  padding: 100px;
 }
 
 .btn,
