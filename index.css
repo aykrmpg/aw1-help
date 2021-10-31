@@ -91,11 +91,8 @@ body{
 }
 
 #pattern1 {
-background-color:#7fffd4;
-width:300px;
-}
-
-#pattern1 {
-background-color:#7fffd4;
-width:300px;
+  background-color:#668ad8;
+  width:750px;
+  font-size: 25px;
+  padding-top:50px;  /* 上の余白を50pxに指定 */
 }
