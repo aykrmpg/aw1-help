@@ -73,11 +73,15 @@ body{
   border: solid 2px #668ad8;
   border-radius: 3px;
   transition: .4s;
-  text-align: center;
 }
+
 /* "前のページに戻るボタン"の上にマウスを置いたときに実行されるクラス */
 .btn-flat-border:hover { 
   background: #668ad8;
   color: white;
 }
 
+/* "前のページに戻るボタン"を中央揃え */
+.pad{
+  text-align: center;
+}
