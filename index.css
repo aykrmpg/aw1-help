@@ -8,7 +8,6 @@ body{
   /* 中央寄せ */
   margin-right: auto;
   margin-left: auto;
-  
   /* 全体の横幅を375に設定 */
   width:375px;
   }
@@ -18,6 +17,10 @@ body{
   /* 中央寄せ */
   text-align:center;
   margin:0 auto;
+  display:block;
+  padding-left:16px;
+  padding-top:16px;
+
 }
 
 .btn-circle-border-simple {
