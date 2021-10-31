@@ -25,30 +25,12 @@ body{
 }
 
 .subtitle{
+  color: #668ad8;
   font-size: 25px;
   text-align:center;
   margin:0 auto;
   padding-top:50px;
-  position: relative;
-  display: inline-block;
-  padding: 0 55px;
-}
-
-.subtitle:before, subtitle:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  display: inline-block;
-  width: 45px;
-  height: 1px;
-  background-color: black;
-}
-
-.subtitle:before {
-  left:0;
-}
-.subtitle:after {
-  right: 0;
+  
 }
 
 /* ボタンに適用 */
