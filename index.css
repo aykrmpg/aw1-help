@@ -13,7 +13,7 @@ body{
   width:375px;
   }
 
-.btn-circle {
+.btn-circle-border-simple {
   display: inline-block;
   text-decoration: none;
   color: #668ad8;
@@ -28,6 +28,6 @@ body{
   transition: .4s;
 }
 
-.btn-circle:hover {
+.btn-circle-border-simple:hover {
   background: #b3e1ff;
 }
