@@ -1,47 +1,41 @@
-.lead-form{
-  text-align: center;
-  font-size:25px;
-}
-
 /* ページ全体に適用 */
 body{
-  /* 中央寄せ */
-  margin-right: auto;
+  margin-right: auto;  /* 中央寄せ */
   margin-left: auto;
-  /* 全体の横幅を750に設定 */
-  width:750px;
+  width:750px;         /* 全体の横幅を750に設定 */
   }
 
+/* 見出し */
 .title{
-  color: #668ad8;
-  font-size: 40px;
-  text-align:center;
+  color: #668ad8;  /* 色を指定 */
+  font-size: 40px; /* 文字サイズを40pxに指定 */
+  text-align:center; /* 中央寄せ */
   margin:0 auto;
-  background: #dfefff;
+  background: #dfefff;  /* 背景の色を指定 */
   box-shadow: 0px 0px 0px 5px #dfefff;
   border: dashed 2px white;
   padding: 0.2em 0.5em;
 
 }
 
+/* 小見出し */
 .subtitle{
   color: #668ad8;
   font-size: 25px;
   text-align:center;
   margin:0 auto;
-  padding-top:50px;
+  padding-top:50px;  /* 上の余白を50pxに指定 */
   
 }
 
-/* ボタンに適用 */
+/* 丸いボタンに適用 */
 .pause{
-  /* 中央寄せ */
   text-align:center;
   margin:0 auto;
   font-size: 25px;
 }
 
-/* ボタン同士の間隔を設定 */
+/* 丸いボタン同士の間隔を設定 */
 .pad{
   display: inline-block;
   width:200px;
@@ -49,7 +43,7 @@ body{
   padding-top:50px;
 }
 
-/* ボタンの詳細な設定 */
+/* 丸いボタンの詳細な設定 */
 .btn-circle-border-simple {
   display: inline-block;
   text-decoration: none;
