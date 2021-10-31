@@ -20,7 +20,8 @@ body{
 }
 
 .pad{
-  width:100px;
+  display: inline-block;
+  width:150px;
    padding-left:6px;
     padding-top:40px;
 }
