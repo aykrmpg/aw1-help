@@ -83,15 +83,13 @@ body{
   color: white;
 }
 
-/* "前のページに戻るボタン"を中央揃え */
-.pad{
-  text-align: center;
-  margin:0 auto;
-  padding-top:50px;
-}
-
-
 footer h1{
-	font-size:15pt;
+	display: inline-block;
 	text-align: center;
+        padding: 0.3em 1em;
+        text-decoration: none;
+        color: #668ad8;
+        border: solid 2px #668ad8;
+        border-radius: 3px;
+        transition: .4s;
 	}
