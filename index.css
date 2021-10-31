@@ -16,11 +16,16 @@ body{
   font-size: 40px;
   text-align:center;
   margin:0 auto;
-  background: #668ad8; /*背景色*/
-  padding: 0.5em;/*文字周りの余白*/
-  color: white;/*文字を白に*/
-  border-radius: 0.5em;/*角の丸み*/
+  background: linear-gradient(transparent 70%, #a7d6ff 70%);
 }
+
+.subtitle{
+  font-size: 25px;
+  text-align:center;
+  margin:0 auto;
+  background: linear-gradient(transparent 70%, #a7d6ff 70%);
+}
+
 
 /* ボタンに適用 */
 .pause{
