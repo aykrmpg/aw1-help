@@ -20,7 +20,7 @@ body{
 }
 
 .btn-circle-border-simple {
-  display: block;
+  display: inner-block;
   text-decoration: none;
   color: #668ad8;
   width: 120px;
@@ -32,8 +32,6 @@ body{
   overflow: hidden;
   font-weight: bold;
   transition: .4s;
-  padding-left:16px;
-  padding-top:16px;
 }
 
 .btn-circle-border-simple:hover {
