@@ -1,10 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <meta charset="utf-8">
+<meta charset="UTF-8">
+<link href="help.css" rel="stylesheet" type="text/css" media="all">
+<title>掲示板</title>
 </head>
-
 <body>
-  Hello world!
+<p class="keiziban-form">お困りごとは何ですか？</p>
+<section>
+    <p class="lead-form">このサイトの操作方法を紹介</p>
+    <form action="index.php" method="post">
+        
+        <div class="item">
+            <label class="label">年間の収穫量:(単位:トン)</label>
+            <input class="inputs" type="text" name="Variety" placeholder="小数第2位まで入力できます" value="">
+        </div>
+        
+        <div class="item">
+            <label class="label">年間の出荷量:(単位:トン)</label>
+            <input class="inputs" type="text" name="Variety" placeholder="小数第2位まで入力できます" value="">
+        </div>
+        
+        <div class="item">
+            <label class="label">年間の収益:(単位:円)</label>
+            <input class="inputs" type="text" name="Variety" value="">
+        </div>
+        
+        <input type="submit" value="投稿">
+        
+        <button onclick="location.href=''">遷移</button>
+        
+    </form>
+</section>
+<section class="toukou">
+    <p class="lead-form">投稿一覧</p>
+    <p class="lead-form">投稿はまだありません</p>
+</section>
 </body>
 </html>
