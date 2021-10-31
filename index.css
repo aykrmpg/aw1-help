@@ -84,4 +84,5 @@ body{
 /* "前のページに戻るボタン"を中央揃え */
 .pad{
   text-align: center;
+  margin:0 auto;
 }
