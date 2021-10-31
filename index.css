@@ -82,3 +82,10 @@ body{
   background: #668ad8;
   color: white;
 }
+
+/* "前のページに戻るボタン"に適用 */
+.change{
+  text-align:center; /* 中央寄せ */
+  margin:0 auto; 
+  font-size: 15px; /* フォントのサイズを設定 */
+}
