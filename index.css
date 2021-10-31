@@ -20,7 +20,7 @@ body{
 }
 
 .btn-circle-border-simple {
-  display: inline-block;
+  display: block;
   text-decoration: none;
   color: #668ad8;
   width: 120px;
