@@ -12,16 +12,11 @@ body{
   width:750px;
   }
 
-/* 見出し */
 .h1 {
-  /* 文字色 */
-  color: #668ad8;
-  /* 上下の余白 */
-  padding: 0.5em 0;
-  /* 上線 */
-  border-top: solid 3px #364e96;
-  /* 下線 */
-  border-bottom: solid 3px #364e96;
+  background: #b0dcfa; /*背景色*/
+  padding: 0.5em;/*文字周りの余白*/
+  color: white;/*文字を白に*/
+  border-radius: 0.5em;/*角の丸み*/
 }
 
 /* ボタンに適用 */
