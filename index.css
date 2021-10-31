@@ -24,8 +24,8 @@ body{
 .pad{
   display: inline-block;
   width:200px;
-  padding-left:6px;
-  padding-top:25px;
+  padding-left:10px;
+  padding-top:30px;
 }
 
 /* ボタンの詳細な設定 */
