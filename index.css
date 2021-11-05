@@ -99,3 +99,11 @@ body{
   font-size: 25px;
   margin-top:50px;  /* 上の余白を50pxに指定 */
 }
+
+.digest {
+  color: #668ad8;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px; 
+}
