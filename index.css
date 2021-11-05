@@ -102,8 +102,9 @@ body{
 
 .digest {
   color: #668ad8;
-  font-size: 20px;
-  padding-top: 10px;
+  font-size: 15px;
   padding-left: 20px;
-  padding-bottom: 10px; 
+  padding-bottom: 5px; 
+  color:red;
+  background-color:#dfefff;
 }
