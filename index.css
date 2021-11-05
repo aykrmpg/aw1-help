@@ -95,13 +95,13 @@ body{
   width:730px;
   padding-top: 10px;
   padding-left: 20px;
-  padding-bottom: 10px; 
   font-size: 25px;
   margin-top:50px;  /* 上の余白を50pxに指定 */
 }
 
 .digest {
   font-size: 20px;
+  padding-left: 5px;
   padding-left: 5px;
   padding-bottom: 5px; 
   color:red;
