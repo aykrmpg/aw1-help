@@ -215,7 +215,7 @@ h4 {
 .pc-dsp { display:block; }
 .sp-dsp { display:none; }
 
-@media only screen and (max-width : 736px){
+@media only screen and (max-width : 800px){
 .pc-dsp { display:none; }
 .sp-dsp { display:block; }
 }
